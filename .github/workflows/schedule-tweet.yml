@@ -2,7 +2,7 @@ name: Schedule Tweet
 
 on:
     schedule:
-        - cron: "5 * * * *"  # Run Job every one minute
+        - cron: "*/5 * * * *"  # Run Job every one minute
 
 jobs:
     tweet:
