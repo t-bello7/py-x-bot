@@ -1,0 +1,11 @@
+[project]
+name = "py-x-bot"
+dynamic = ["version"]
+description = 'Twitter Bot'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Oluwatomisin Bello", email = "bello4aus@gmail.com" },
+]
