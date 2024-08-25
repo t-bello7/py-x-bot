@@ -1,3 +1,4 @@
+# Python app for scheduled tweet based on trainied gemini model based on google keep notes. using github actions to schdule tweet
 import os
 import json
 from requests_oauthlib import OAuth1Session

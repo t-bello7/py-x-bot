@@ -5,3 +5,6 @@ This twitter bot utilizes Twitter v2 Basic API to send random tweets. The API ha
 - Filtered Stream API
 - Write 3000 posts per month
 - Read 10,000 posts per month
+
+Resources:
+- [Crontab Guru](https://crontab.guru/)
