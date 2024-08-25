@@ -1,8 +1,10 @@
 name: Schedule Tweet
 
 on:
-    schedule:
-        - cron: "*/5 * * * *"  # Run Job every one minute
+    # schedule:
+    push:
+        
+        # - cron: "*/5 * * * *"  # Run Job every one minute
 
 jobs:
     tweet:
