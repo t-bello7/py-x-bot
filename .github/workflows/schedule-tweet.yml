@@ -2,12 +2,14 @@ name: Schedule Tweet
 
 on:
     schedule:
-        - cron: "1 * * * *"  # Run Job every one minute
+        - cron: "5 * * * *"  # Run Job every one minute
 
 jobs:
     tweet:
         runs-on: unbuntu-latest
         steps:
-            - name: Install python Packages
-              run: pip install -r requirements.txt
+            -   name: Checkout 
+                uses: actions/checkout@v4
+            -   name: Install python Packages
+                run: pip install -r requirements.txt
 

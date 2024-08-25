@@ -40,6 +40,7 @@ The project file structure should look like this
 ```
 |-- Pipfile
 |-- Pipfile.lock
+|-- requirements.txt
 ```
 
 ## STEP TWO: Setup github actions 
